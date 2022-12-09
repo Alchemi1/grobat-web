@@ -119,13 +119,13 @@
                             <div class="bnbvalue">
                               <p class="bnbval"></p>
                             </div>
-                            <div class="stats">
-                              <p class="minted"><span id="mintedamount">0</span>/<span id="max">1000</span></p>
+                            <div class="stats progress">
+                              <p class="minted progress-bar"><span id="mintedamount" role="progressbar"><b>0</b></span>/<span id="max"><b>1000</b></span></p>
                             </div>
                             <div class="walletStats">
-                              <p class="walletbalance">Your Balance: <span class="bnbBalanceVal">0</span> BNB</p>
-                              <p class="nftOwned"><span class="numOwnedNft">0</span> Nfts Owned</p>
-                              <p class="reflectionBalance">unclaimed reflections: <span class="numreflectbalance">0</span> BNB</p>
+                              <p class="walletbalance">Your Balance: <span class="bnbBalanceVal"><b>0</b></span> BNB</p>
+                              <p class="nftOwned"><span class="numOwnedNft"><b>0</b></span> Nfts Owned</p>
+                              <p class="reflectionBalance">unclaimed reflections: <span class="numreflectbalance"><b>0</b></span> BNB</p>
                               <button id="collectReflectsInBeans" class="btn btn-dark shadowed rounded-0" onclick="collectreflects()">Collect reflections in BNB</button>
                               <button id="collectReflectionsInGuestToken" class="btn btn-dark shadowed rounded-0" disabled="true" style="display: none">Collect reflections in Guest Token</button>
                             </div>
@@ -397,13 +397,13 @@
           <div class="col-md-12 text-center d-md-flex align-items-center"> <img src="assets/img/grobat-logo.png" class="d-inline-block align-top" alt="" height="60">
             <ul class="nav mx-md-auto d-flex justify-content-center"></ul>
             <div class="row">
-              <div class="col-md-12 d-flex align-items-center justify-content-md-between justify-content-center my-2">  
-		<a href="https://t.me/Grobatbsc" target="_blank">
-                <i class="d-block fa fa-telegram text-muted fa-lg mx-2"></i>
-              </a> <a href="https://twitter.com/GROBAT_BSC" target="_blank">
-                <i class="d-block fa fa-twitter text-muted fa-lg mx-2"></i>
-              </a>
-	      </div>
+              <div class="col-md-12 d-flex align-items-center justify-content-md-between justify-content-center my-2">
+                <a href="https://t.me/Grobatbsc" target="_blank">
+                  <i class="d-block fa fa-telegram text-muted fa-lg mx-2"></i>
+                </a> <a href="https://twitter.com/GROBAT_BSC" target="_blank">
+                  <i class="d-block fa fa-twitter text-muted fa-lg mx-2"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -437,6 +437,7 @@
     <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider@1.7.8/dist/umd/index.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
   </div>
+
 </body>
 
 </html>
