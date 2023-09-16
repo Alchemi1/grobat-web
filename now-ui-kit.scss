@@ -188,6 +188,8 @@ $modal-sm:                   255px;
 $progress-height:   1px;
 
 
+
+
 // Import Bootstrap 4.0.0
 
 @import 'bootstrap-4.0.0';
@@ -864,4 +866,8 @@ html,body {
 }
 .shadow-none {
   box-shadow: none !important;
+}
+
+
+.section-fade-in-out {
 }
